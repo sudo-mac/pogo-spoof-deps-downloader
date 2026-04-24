@@ -6,55 +6,55 @@
 
 # AirDroid Remote Support
 echo "Downloading Remote Support..."
-curl -sL https://dl.airdroid.com/RemoteSupport_1.1.4.0.apk -o Support.apk
+wget -c --progress=bar --limit-rate=1g https://dl.airdroid.com/RemoteSupport_1.1.4.0.apk -O Support.apk
 
 # RootChecker
 echo "Downloading RootChecker..."
-curl -sL https://apkpure.com/root-checker/com.joeykrim.rootcheck/download -o RootChecker.apk
+wget -c --progress=bar --limit-rate=1g https://apkpure.com/root-checker/com.joeykrim.rootcheck/download -O RootChecker.apk
 
 # RootExplorer
 echo "Downloading RootExplorer..."
-curl -sL https://d.apkpure.com/b/APK/com.speedsoftware.rootexplorer?version=latest -o RootExplorer.apk
+wget -c --progress=bar --limit-rate=1g https://d.apkpure.com/b/APK/com.speedsoftware.rootexplorer?version=latest -O RootExplorer.apk
 
 # APKCombo
 echo "Downloading APKCombo..."
-curl -sL https://apkcombo.com/tr/apkcombo-installer/com.apkcombo.app/ -o APKCombo.apk
+wget -c --progress=bar --limit-rate=1g https://apkcombo.com/tr/apkcombo-installer/com.apkcombo.app/ -O APKCombo.apk
 
 # HideMockLocation
 echo "Downloading HideMockLocation..."
-curl -sL $(curl -s https://api.github.com/repos/auag0/HideMockLocation/releases/tags/v1.2.2 | grep "browser_download_url.*\.apk" | cut -d '"' -f 4) -o HideMockLocation-latest.apk
+curl -sL $(curl -s https://api.github.com/repos/auag0/HideMockLocation/releases/tags/v1.2.2 | grep "browser_download_url.*\.apk" | cut -d '"' -f 4) -O HideMockLocation-latest.apk
 
 # GPSJoystick
 echo "Downloading GPSJoystick..."
-curl -sL https://downloads.theappninjas.com/gpsjoystick-unlocked-arm64-v8a.apk -o GPSJoystick.apk
+wget -c --progress=bar --limit-rate=1g https://downloads.theappninjas.com/gpsjoystick-unlocked-arm64-v8a.apk -O GPSJoystick.apk
 
 # Lawnchair
 echo "Downloading Lawnchair..."
-curl -sL $(curl -sL https://api.github.com/repos/lawnchairlauncher/lawnchair/releases/latest | grep "browser_download_url.*\.apk" | cut -d '"' -f 4) -o Lawnchair.apk
+wget -c --progress=bar --limit-rate=1g $(curl -sL https://api.github.com/repos/lawnchairlauncher/lawnchair/releases/latest | grep "browser_download_url.*\.apk" | cut -d '"' -f 4) -O Lawnchair.apk
 
 # PGsharp
 echo "Downloading PGsharp..."
-curl -sL https://www.pgsharp.com/dlpgsrt -o PGsharp.apk
+wget -c --progress=bar --limit-rate=1g https://www.pgsharp.com/dlpgsrt -O PGsharp.apk
 
 # Pokemod
 echo "Downloading Pokemod..."
-curl -sL https://discovery.pokemod.dev/dl/pkmd/public -o Pokemod.apk
+wget -c --progress=bar --limit-rate=1g https://discovery.pokemod.dev/dl/pkmd/public -O Pokemod.apk
 
 # PolygonX
 echo "Downloading PolygonX..."
-curl -sL "https://polygonx.dl.assets.evermorelabs.io/apk/$(curl -s https://polygonx.dl.assets.evermorelabs.io/apk/ | grep -o 'href="[^"]*\.apk"' | cut -d'"' -f2 | tail -1)" -o PolygonX.apk
+wget -c --progress=bar --limit-rate=1g "https://polygonx.dl.assets.evermorelabs.io/apk/$(curl -s https://polygonx.dl.assets.evermorelabs.io/apk/ | grep -O 'href="[^"]*\.apk"' | cut -d'"' -f2 | tail -1)" -O PolygonX.apk
 # PGtools
 echo "Downloading PGtools..."
-curl -sL https://assets.pgtools.net/pgtools-5.6.15.apk -o PGtools.apk
+wget -c --progress=bar --limit-rate=1g https://assets.pgtools.net/pgtools-5.6.15.apk -O PGtools.apk
 
 # Shungo
 echo "Downloading Shungo..."
-curl -sL https://shungo.app/shungo.apk -o Shungo.apk
+wget -c --progress=bar --limit-rate=1g https://shungo.app/shungo.apk -O Shungo.apk
 
 # DataHub
 echo "Downloading DataHub..."
-curl -sL https://assets.pgtools.net/data-hub-2.3.0.apk -o DataHub.apk
+wget -c --progress=bar --limit-rate=1g https://assets.pgtools.net/data-hub-2.3.0.apk -O DataHub.apk
 
 # AdAway
 echo "Downloading AdAway..."
-curl -sL $(curl -sL https://api.github.com/repos/AdAway/AdAway/releases/latest | grep "browser_download_url.*\.apk" | cut -d '"' -f 4) -o AdAway.apk
+wget -c --progress=bar --limit-rate=1g $(curl -sL https://api.github.com/repos/AdAway/AdAway/releases/latest | grep "browser_download_url.*\.apk" | cut -d '"' -f 4) -O AdAway.apk
