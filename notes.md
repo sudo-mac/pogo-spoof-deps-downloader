@@ -1,2 +1,2 @@
-Fix Failed Apps: - APKcombo - RootChecker - RootExplorer - PolygonX - iPoGo -
-HideMockLocation - Magisk (?)
+-Fix Failed Apps -APKcombo -RootChecker -RootExplorer -PolygonX -iPoGo
+-HideMockLocation -Shungo
