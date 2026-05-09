@@ -1,2 +1,3 @@
--Fix Failed Apps -APKcombo -RootChecker -RootExplorer -PolygonX -iPoGo
--HideMockLocation -Shungo
+download-apps.sh needs fixed!!
+
+merge download-apps.sh to download-apps.sh.success when fixed !!
